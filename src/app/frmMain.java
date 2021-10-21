@@ -47,7 +47,7 @@ public class frmMain extends JFrame implements ActionListener  {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-//					UIManager.setLookAndFeel("com.jtattoo.plaf.smart.SmartLookAndFeel");
+					UIManager.setLookAndFeel("com.jtattoo.plaf.smart.SmartLookAndFeel");
 					frmMain window = new frmMain();
 					window.frame.setVisible(true);
 				} catch (Exception e) {
@@ -164,25 +164,25 @@ public class frmMain extends JFrame implements ActionListener  {
 		JLabel jlbmnv = new JLabel("Mã nhân viên:");
 		jlbmnv.setFont(new Font("Tahoma", Font.PLAIN, 19));
 		jlbmnv.setForeground(new Color(255, 255, 255));
-		jlbmnv.setBounds(0, 556, 121, 33);
+		jlbmnv.setBounds(10, 556, 121, 33);
 		panel_1.add(jlbmnv);
 		
 		JLabel jlbgetmanv = new JLabel("NV123");
 		jlbgetmanv.setForeground(new Color(255, 255, 255));
 		jlbgetmanv.setFont(new Font("Tahoma", Font.PLAIN, 19));
-		jlbgetmanv.setBounds(131, 565, 113, 14);
+		jlbgetmanv.setBounds(141, 565, 113, 14);
 		panel_1.add(jlbgetmanv);
 		
 		JLabel jlbngay = new JLabel("Ngày:");
 		jlbngay.setForeground(new Color(255, 255, 255));
 		jlbngay.setFont(new Font("Tahoma", Font.PLAIN, 19));
-		jlbngay.setBounds(0, 522, 59, 23);
+		jlbngay.setBounds(10, 520, 59, 23);
 		panel_1.add(jlbngay);
 		
 		 jlbgetngay = new JLabel("");
 		jlbgetngay.setForeground(new Color(255, 255, 255));
 		jlbgetngay.setFont(new Font("Tahoma", Font.PLAIN, 19));
-		jlbgetngay.setBounds(60, 520, 184, 27);
+		jlbgetngay.setBounds(70, 520, 184, 27);
 		panel_1.add(jlbgetngay);
 		
 		 tabbedPane1 = new JTabbedPane(JTabbedPane.TOP);
